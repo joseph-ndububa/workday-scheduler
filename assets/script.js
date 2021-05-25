@@ -102,12 +102,12 @@ $(".col-10").on("blur", "textarea", function () {
     $(this).remove();
 });
 
-// update the date and colors every 60 seconds
+// update the date and colors every second
 
 setInterval(function () {
     setDate();
     colorCode();
-}, 60000);
+}, 1000);
 
 // saves event data for each time slot
 
